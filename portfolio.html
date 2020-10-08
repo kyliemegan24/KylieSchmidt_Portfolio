@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <style>
+        .navbar-brand {
+            background-color: teal;
+        }
+        #MyName {
+            color: white;
+            font-family: "Georgia", serif;
+            font-weight: bold;
+        }
+
+        #my-portfolio {
+            background-color: white; 
+            margin-top: 10%;
+            margin-bottom: 10%;
+            padding-top: 25px;
+            padding-left: 25px;
+            padding-bottom: 25px;
+
+        }
+
+        h1 {
+            font-family: "Georgia", serif;
+            font-weight: bold;
+            color: teal;
+        }
+
+        #row-1 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        #row-2 {
+            margin-bottom: 20px;
+        }
+
+        #row-3 {
+            margin-bottom: 20px; 
+        }
+
+        footer {
+            background-color: black;
+            border-top: teal;
+            border-style: solid;
+            border-width: 2px;
+        }
+
+        p {
+            color: black;
+            text-align: left;
+            
+        }
+
+        @media screen and (max-width: 768px) {
+            img {
+                padding-bottom: 40px;
+            }
+
+            #my-portfolio {
+                margin-top: 75px;
+                margin-left: 25px;
+            }
+        }
+        @media screen and (max-width: 400px) {
+           #my-portfolio {
+               margin-top: 100px;
+               margin-left: 2px;
+               margin-right: 2px;
+               margin-bottom: 100px;
+           }
+
+        }
+
+    </style>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#" id="MyName">Kylie Schmidt</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                </div>
+                </div>
+                    <div class="col-lg-3">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                             <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item active">
+                                   <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                                 </li>
+                            </ul>
+                        
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        
+        </nav>
+
+        <div class="col-lg-11 col-md-11">
+            <div class="container" id="my-portfolio">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1>
+                            Portfolio
+                        </h1>
+                    </div>
+                </div>
+    
+                <div class="row" id="row-1">
+                    <div class="col-lg-6 col-md-12">
+                        <h5>Consolation Cat for the Times</h5>
+                        <p>An app that feeds you news articles along with a randomly generated cat photo to make staying in the loop (slightly) less stressful.</p>
+                        <p><a href="https://github.com/kyliemegan24/Consolation_Cat_News_App">Link to Repository</a></p>
+                        <p><a href="https://kyliemegan24.github.io/Consolation_Cat_News_App/">Deployed Link</a></p>
+                        <img class="img-fluid" src="https://www.disabilitywales.org/wp-content/uploads/2017/10/350x350.png" alt="picture">
+                    </div>
+                </div>
+
+                <div class="row" id="row-2">
+                    <div class="col-lg-6 col-md-12">
+                        <h5>M&M's Timed Quiz</h5>
+                        <p>A quiz about everyone's favorite candy. Watch out- incorrect answers subtract an additional 5 seconds from your time!</p>
+                        <p><a href="https://github.com/kyliemegan24/MandMs_PopQuiz">Link to Repository</a></p>
+                        <p><a href="https://kyliemegan24.github.io/MandMs_PopQuiz/">Deployed Link</a></p>
+                        <img class="img-fluid" src="https://www.disabilitywales.org/wp-content/uploads/2017/10/350x350.png" alt="picture">
+                    </div>
+                    
+                </div>
+
+                <div class="row" id="row-3">
+                    <div class="col-lg-6 col-md-12">
+                        <h5>Random Password Generator</h5>
+                        <p>Answer prompts about your password requirements and receive a randomly generated password that meets them.</p>
+                        <p><a href="https://github.com/kyliemegan24/Random_Password_Generator">Link to Repository</a></p>
+                        <p><a href=" https://kyliemegan24.github.io/Random_Password_Generator/">Deployed Link</a></p>
+                        <img class="img-fluid" src="https://www.disabilitywales.org/wp-content/uploads/2017/10/350x350.png" alt="picture">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="container">
+                <p>© Copyright 2020 Kylie</p>
+            </div>
+        </footer>
+        
+</body>
+</html>

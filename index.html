@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <style>
+        .navbar-brand {
+            background-color: teal;
+        }
+        #MyName {
+            color: white;
+            font-family: "Georgia", serif;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-family: "Georgia", serif;
+            font-weight: bold;
+            color: teal;
+            margin-bottom: 30px;
+        }
+
+        #about-me {
+            background-color: white;
+            margin-top: 100px;
+            margin-left: 20px;
+            margin-bottom: 50px;
+            margin-right: 20px;
+            padding-top: 25px;
+            padding-left: 25px;
+            padding-bottom: 25px;
+            padding-right: 25px;
+        }
+
+        footer {
+            background-color: black;
+            border-top: teal;
+            border-style: solid;
+            border-width: 2px;
+        }
+
+        footer p {
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        #image-guy {
+            padding-bottom: 25px;
+            float: left;
+        }
+
+        #paragraph {
+            float: left;
+        }
+
+        
+
+        @media screen and (max-width: 768px) {
+            #about-me {
+                width: 65%;
+                margin-left: 3%;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            #about-me {
+                width: 94%;
+                margin-left: 3%;
+                margin-right: 3%;
+            }
+
+            #MyName {
+                width: 40%;
+                font-size: 50;
+            }
+        }
+
+    </style>
+
+<!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#" id="MyName">Kylie Schmidt</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                </div>
+                </div>
+                    <div class="col-lg-3">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                             <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                   <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                                 </li>
+                            </ul>
+                        
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        
+        </nav>
+
+        <div class="col-lg-7 col-sm-11">
+            <div class="container" id="about-me">
+                <div class="row">
+                    <div class="col-lg-7 col-sm-8">
+                        <div class="header">
+                            <h1>
+                                About Me
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row" id="floaty">
+                    <div class="col-lg-5 col-md-6 col-sm-7" id="image-guy">
+                        <img class="img-fluid" src="https://media-exp1.licdn.com/dms/image/C4E03AQEfUIvPsqNv3A/profile-displayphoto-shrink_400_400/0?e=1607558400&v=beta&t=AM_hNWhpmvnR9IsWxR1MGRncEIZ0euSJuEKJDtcDoOA" alt="picture">
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-sm-5">
+                        <p id="paragraph">
+                            Hi! My name is Kylie. I'm a young professional looking to dive into the web development world. I have a degree in marketing from St. Catherine University and recently completed a Full-stack Development Certificate through a University of Minnesota coding bootcamp. With my unique blend of skill-sets, I'm ready to launch a more tech-focused phase of my career.
+                        </p>
+                        <p>
+                            <a href="https://docs.google.com/document/d/19Y1fs6MkeL8jcrHGS9eJMNAUzw3YDWypGHaepbixyOE/edit?usp=sharing">Check out my resume!</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <footer>
+            <div class="container">
+                <p>© Copyright</p>
+            </div>
+        </footer>
+    </body>
+</html>
