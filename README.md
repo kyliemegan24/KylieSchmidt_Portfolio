@@ -5,7 +5,7 @@ Description:
 
 This site is a personal portfolio with links to my best full-stack web development projects. 
 
-Links: Repository Link - https://github.com/kyliemegan24/MandMs_PopQuiz Deployed Gitpages link - https://kyliemegan24.github.io/MandMs_PopQuiz/
+Links: Repository Link - https://github.com/kyliemegan24/KylieSchmidt_Portfolio Deployed Gitpages link -  https://kyliemegan24.github.io/KylieSchmidt_Portfolio/.
 
 Usage Insturctions:
 Use the nav bar to navigate between my about me, contact, and portfolio pages. 
